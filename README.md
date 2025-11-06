@@ -10,22 +10,7 @@ npm install
 
 ## Configuration
 
-Create `config-local.js`:
-
-```javascript
-export const CONFIG = {
-  webSocketPort: 8765,           // Browser clients connect here
-  beastSources: [
-    {
-      host: 'localhost', // Local host or IP
-      port: 30005,
-      name: 'beast source'
-    }
-  ],
-  reconnectInterval: 5000,       // Reconnect to Beast source after failure
-  maxClients: 50
-};
-```
+Edit `config.js`:
 
 ## Running
 
